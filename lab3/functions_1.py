@@ -82,7 +82,7 @@ def guessTheNumber():
     print(f'Well, {name}, I am thinking of a number between 1 and 20')
     print('Take a guess')
     y = int(input())
-    guesses = 1
+    t = 1
     while (y != x):
         if (y < x):
             print('Your guess is too low')
@@ -91,7 +91,7 @@ def guessTheNumber():
             print('You guess is too high')
             print('Take a guess')
         y = int(input())
-        guesses = guesses + 1
-    print(f'Good job, {name}! You guessed my number in {guesses} guesses!')
+        t = t + 1
+    print(f'Good job, {name}! You guessed my number in {t} guesses!')
         
 
