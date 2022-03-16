@@ -14,5 +14,7 @@ maxi = max(stud.values())
 for x in names2:
     if stud[x] == maxi:
         print(x, " is lucky!")
+        #print(f'{x} is lucky!')
     else:
         print(x, " has to receive ", maxi - int(stud[x]), " tenge")
+        #print(f'{x} has to receive {maxi - int(stud[x])} tenge')

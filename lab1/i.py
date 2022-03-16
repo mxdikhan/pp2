@@ -4,4 +4,4 @@ for i in range(a):
     s = input()
     if str in s:
         print(s[:-10])
-print(end='\n')
+

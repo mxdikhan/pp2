@@ -6,3 +6,5 @@ for i in range(n):
     arr.append(x + 2*i)
     k = k ^ arr[i]
 print(k)
+
+

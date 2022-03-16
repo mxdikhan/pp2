@@ -12,3 +12,10 @@ for i in range (amount):
         a.append("Burn! Burn! Burn Young!")
 for i in range (amount):
     print(a[i])
+
+#len(string) -> returns length of string
+# .append() -> .push_back()
+
+# if ...
+# elif ...
+# else ...

@@ -3,5 +3,6 @@ a=[]
 for i in s:
     if len(i)>=3:
         a.append(i)
-        x=" ".join(a)
+        
+x=" ".join(a)
 print(x)

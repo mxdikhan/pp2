@@ -6,6 +6,10 @@ class MyStrings:
     def printString(self):
         print(self.string)
 
+frt = MyStrings()
+frt.getString()
+frt.printString()
+
 class Shape:
     def area(self):
         return 0
@@ -54,6 +58,9 @@ class BankAccount:
         if (self.balance >= sum):
             self.balance = self.balance - sum
 
+
+
+
 def isPrime(x):
     if (x == 1):
         return False
@@ -62,6 +69,6 @@ def isPrime(x):
             return False
     return True
 
-array = list(map(int(), input().split()))
-array = list(filter(lambda x: isPrime(x), array))
-print(array)
+#array = list(map(int(), input().split()))
+#array = list(filter(lambda x: isPrime(x), array))
+#print(array)

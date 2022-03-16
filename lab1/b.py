@@ -7,3 +7,5 @@ if tastyness<300:
     print("Oh, no!")
 else: 
     print("It is tasty!")
+
+#len(string) -> returns length of string

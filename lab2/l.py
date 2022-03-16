@@ -5,11 +5,11 @@ flag = True
 for i in s:
     if i == '{' or i == '[' or i == '(':
         a.append(i)
-    elif (len(a) != 0) and (i == '}' or i == ']' or i == ')'):
-        if (a[-1] == '{' and i == '}') or (a[-1] == '[' and i == ']') or (a[-1] == '(' and i == ')'):
+    elif (len(a) != 0):
+        if (a[len(a) - 1] == '{' and i == '}') or (a[len(a) - 1] == '[' and i == ']') or (a[len(a) - 1] == '(' and i == ')'):
             a.pop()
         else:
-            falg = False
+            flag = False
             break
 
 if len(a) != 0:

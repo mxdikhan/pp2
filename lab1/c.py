@@ -7,3 +7,5 @@ def toLowercase(a):
             lower+=i
     print(lower)
 toLowercase(input())
+
+#return a.lower()

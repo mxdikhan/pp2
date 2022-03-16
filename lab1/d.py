@@ -8,4 +8,8 @@ if size=="b":
     number=number*1024
     print(number)
 else:
-    print(y.format(number/1024))
+    print(y.format(number / 1024))
+
+    #print (round(number/1024, x))
+
+ 

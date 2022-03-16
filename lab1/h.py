@@ -5,3 +5,5 @@ y=s.rfind(q)
 if(x==y):
     print(x)
 else:print(x, y)
+
+

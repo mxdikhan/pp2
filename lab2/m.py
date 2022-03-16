@@ -9,6 +9,6 @@ while True:
         break
     a.append((date[0], date[1], date[2]))
 
-a = sorted(a, key = srt)
+a.sort(key = srt)
 for i in a:
-    print(*i)
+    print(i[0], i[1], i[2])

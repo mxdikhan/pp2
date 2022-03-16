@@ -14,3 +14,4 @@ for i in range (len(jump)):
         break
 if max_jump<len(jump)-1:
     print(0)
+
